@@ -1,12 +1,8 @@
 #include <stdio.h>
-/*
-*Write a C program that prints text.
-*Use the function puts
-*You are not allowed to use printf
-*Your program should end with the value 0
-*/
 int main(void)
+/* Write a C program that prints words */
 {
 puts("\"Programming is like building a multilingual puzzle");
+// your program should end with the value zero
 return (0);
 }
