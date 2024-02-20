@@ -4,8 +4,9 @@
 
 /**
 * main - Entry point
-* Return: if the last digit of n is greater than 5, less than 6,
-* and if the last digit of n is 0: the string and is 0
+* Return: if the last digit of n is greater than 5,
+* and is less than 6 and not 0,
+* and if the last digit of n is 0: the string and is 0.
 */
 int main(void)
 {
