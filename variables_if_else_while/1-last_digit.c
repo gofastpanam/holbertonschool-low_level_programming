@@ -1,19 +1,33 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+* main - Entry point
+* Return: if the last digit of n is greater than 5, less than 6,
+* and if the last digit of n is 0: the string and is 0
+*/
 int main(void)
 {
-	int n;
+int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-if(%10 n> 5)
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+
+int LastDigitOf;
+LastDigitOf = n % 10;
+
+if (LastDigitOf > 5)
 {
-printf("%10 n and is greater than 5"\n , n);
+printf("Last digit of %d is %d and is greater than 5\n", n, LastDigitOf);
 }
-if
+else if (LastDigitOf == 0)
+{
+printf("Last digit of %d is %d and is 0\n", n, LastDigitOf);
+}
+else if (LastDigitOf < 6 && LastDigitOf != 0)
+{
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, LastDigitOf);
+}
 	return (0);
 }
