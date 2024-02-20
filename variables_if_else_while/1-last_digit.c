@@ -1,34 +1,32 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
-* main - Entry point
-* Return: if the last digit of n is greater than 5,
-* and is less than 6 and not 0,
-* and if the last digit of n is 0: the string and is 0.
-*/
+ * main - assign a random number to the variable n
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
-int n;
+	int n;
+	int j;
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
-int LastDigitOf;
-LastDigitOf = n % 10;
+	j = n % 10;
 
-if (LastDigitOf > 5)
-{
-printf("Last digit of %d is %d and is greater than 5\n", n, LastDigitOf);
-}
-else if (LastDigitOf == 0)
-{
-printf("Last digit of %d is %d and is 0\n", n, LastDigitOf);
-}
-else if (LastDigitOf < 6 && LastDigitOf != 0)
-{
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n, LastDigitOf);
-}
+	if (j > 5)
+	{
+		printf("Last digit of %d is %d and is greater than 5\n", n, j);
+	}
+	else if (j == 0)
+	{
+		printf("Last digit of %d is %d and is 0\n", n, j);
+	}
+	else if (j < 6)
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, j);
+	}
 	return (0);
 }
