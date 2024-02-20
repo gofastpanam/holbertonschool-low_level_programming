@@ -10,6 +10,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	printf()
+if(%10 n> 5)
+{
+printf("%10 n and is greater than 5"\n , n);
+}
+if
 	return (0);
 }
