@@ -9,11 +9,11 @@ int main(void)
 {
 char c;
 
-while (c == 'q' || c == 'e')
+while (c == 'q' && c == 'e')
 {
 	putchar ('\n');
 }
-while (c = 'a' || c <= 'z' || ++c)
+for (c = 'a' ; c <= 'z' ; ++c)
 {
 putchar(c);
 }
