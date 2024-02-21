@@ -11,12 +11,11 @@ char c;
 
 for (c = 'a' ; c <= 'z' ; ++c)
 {
-if (c != 'q' && c != 'e')
+if (c != 'q' || c != 'e')
 {
-putchar('\n');
-}
 putchar(c);
 }
-
+}
+putchar('\n');
 return (0);
 }
