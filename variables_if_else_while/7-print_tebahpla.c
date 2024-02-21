@@ -2,14 +2,14 @@
 
 /**
  * main - prints the alphabet in lowercase
- * and in reverse.
+ * and in reverse !
  * Return: 0 (Success)
  */
 int main(void)
 {
 char c;
 
-for (c = 'a'; c <= 'z'; --c)
+for (c = 'z'; c >= 'a'; --c)
 {
 putchar(c);
 }
