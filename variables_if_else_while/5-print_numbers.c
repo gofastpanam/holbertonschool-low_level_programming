@@ -7,7 +7,7 @@
 int main(void)
 {
 int c;
-while (c != 10 , ++c)
+for (c = 0 ; c < 10 ; ++c)
 {
 printf("%c\n", c);
 }
