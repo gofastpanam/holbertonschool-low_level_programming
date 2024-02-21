@@ -13,7 +13,7 @@ while (c == 'q' || c == 'e')
 {
 	putchar ('\n');
 }
-for (c = 'a'; c <= 'z'; ++c)
+while (c = 'a' || c <= 'z' || ++c)
 {
 putchar(c);
 }
