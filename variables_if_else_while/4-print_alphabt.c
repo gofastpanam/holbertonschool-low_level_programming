@@ -11,7 +11,8 @@ char c;
 
 while (c == 'q' && c == 'e')
 {
-	putchar ('\n');
+putchar('\n');
+return (0);
 }
 for (c = 'a' ; c <= 'z' ; ++c)
 {
