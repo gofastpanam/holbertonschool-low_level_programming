@@ -1,9 +1,13 @@
 #include "main.h"
 
 /**
-* int add - a function that adds two integers
+* add - The function that adds two integers
 * and returns the result.
-* main - entry point
+* @a: first integrer
+* @b : second integrer
 * return: result
 */
-int add(int, int);
+int add(int a, int b)
+{
+	return a + b;
+}
