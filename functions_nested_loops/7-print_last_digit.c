@@ -6,9 +6,18 @@
 *
 *
 */
-int print_last_digit(int i)
+int print_last_digit(int r)
 {
-	int r;
-	r = i % 10;
-	return (r);
+	int i;
+	if (i => 0)
+	{
+		r = i % 10;
+		return (r);
+	}
+	else if
+	{
+		r = (r * r % 10);
+		return (r);
+	}
+
 }
