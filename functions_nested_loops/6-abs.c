@@ -2,20 +2,16 @@
 
 /**
 * _abs - The function that computes the absolute value of an integrer.
+* @r: The integrer.
 * main - Check the code
 * Return:
 *
 */
-int _abs(int)
+int _abs(int r)
 {
-	int j;
-
-	if (j < 0)
+	if (r < 0)
 	{
-		j = -j;
+		r = -r;
 	}
-	else
-	{
-		j = j;
-	}
+	return r;
 }
