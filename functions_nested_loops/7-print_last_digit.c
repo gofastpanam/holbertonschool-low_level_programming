@@ -6,9 +6,9 @@
 *
 *
 */
-int print_last_digit(int j)
+int print_last_digit(int i)
 {
 	int r;
-	r = j % 10;
+	r = i % 10;
 	return (r);
 }
