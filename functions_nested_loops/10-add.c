@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
-* add - Adds two integers
-* and returns the result.
+* add - adds two integers and returns the result.
 * @a: first integrer
-* @b : second integrer
-* return: result
+* @b: second integrer
+* Return: the result of two integers.
 */
 int add(int a, int b)
 {
-	return a + b;
+	return (a + b);
 }

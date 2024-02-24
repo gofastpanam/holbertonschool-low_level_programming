@@ -1,17 +1,11 @@
 #include "main.h"
 
 /**
-* _abs - Computes the function that computes the absolute value of an integrer.
-* @r: The integrer.
-* main - Check the code
-* Return:
-*
-*/
-int _abs(int r)
+ * _abs - Computes the absolute value of an integer.
+ * @n: The integer to compute the absolute value of
+ * Return: The absolute value of n
+ */
+int _abs(int n)
 {
-	if (r < 0)
-	{
-		r = -r;
-	}
-	return r;
+    return (n < 0) ? -n : n;
 }
