@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-void fizz_buzz(void)
+int main(void)
 {
-    int i;
+	int i;
 
     for (i = 0; i < 100; i++)
     {
@@ -15,12 +15,5 @@ void fizz_buzz(void)
         else
             printf("%d ", i);
     }
-
-    printf("\n");
-}
-
-int main(void)
-{
-    fizz_buzz();
     return 0;
 }
