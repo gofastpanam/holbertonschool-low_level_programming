@@ -11,17 +11,17 @@ int main (void)
 
 	for (i = 0; i <= 100; i++)
 	{
-		if (5 % 2 = 0 && 3 % 2 = 0)
+		if (i % 5 = 0 && i % 3 = 0)
 		{
 			j =
 			printf("%d", i)
 
 		}
-		else if (5 % 2 = 0)
+		else if (i % 3 = 0)
 		{
 
 		}
-		else if (3 % 2 = 0)
+		else if (i % 5 = 0)
 		{
 
 		}
