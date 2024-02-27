@@ -12,7 +12,7 @@ void convertirMinutesEnHeuresEtMinutes(int minutes) {
 
 // Fonction principale
 int main(void) {
-    int minutes = 10535052;
+    int minutes = 100;
     convertirMinutesEnHeuresEtMinutes(minutes);
     return 0;
 }
