@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * *_strcat - use pointer
+ * *_strncat - use pointer
  * @src: source pointer
  * @dest: destination pointer
+ * @n: the numbers of bytes contains src
  * Return: Contact pointers
  */
 char *_strncat(char *dest, char *src, int n)
