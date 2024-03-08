@@ -1,14 +1,18 @@
 #include <stdio.h>
 
 /**
-*
-*
-*
+* main - prints all arguments it receives.
+* @argc: numbers of arguments
+* @argv: arguments
+* Return: 0
 */
-int main(int num1, int num2)
+int main(int argc, char *argv[])
 {
-	int result = (num1 * num2);
+	int i;
 
-	printf("%d\n", result);
-	return (result);
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[0]);
+	}
+	return (0);
 }
