@@ -3,12 +3,12 @@
 #include "3-calc.h"
 
 /**
+* main - Making an operation
 * @argc: nomber of arg
 * @argv: name of arg
-*
-*
+* Return: Value of operation
 */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int num1, num2, result;
 	int (*op_func)(int, int);
